@@ -127,3 +127,74 @@ function animateShapes() {
   fill(squareColor);
   rect(200, 200, squareSize, squareSize);
 }
+
+# Week 3 Journal by Kayleigh Waser
+GENCG Week 3 Exercise Grid & Time
+To combine the exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. The code used looked as follows:
+
+let angle = 0;     // for moon orbit
+let lineLength = 50;  // base line length
+let t = 0;         // time variable for easing
+
+function setup() {
+  createCanvas(500, 500);
+  angleMode(DEGREES);
+}
+
+function draw() {
+  background(87);
+
+  translate(width/2, height/2);
+
+  // Ease the line length (sin wave)
+  let easedLength = lineLength + sin(t) * 30;
+  t += 2; // speed of easing
+
+  stroke(0);
+  strokeWeight(4);
+
+  // Draw radiating lines
+  for (let i = 0; i < 6; i++) {
+    let x = cos(i * 60) * easedLength;
+    let y = sin(i * 60) * easedLength;
+    line(0, 0, x, y);
+  }
+
+  // Orbiting moons
+  let orbitRadius = 150;
+  let moonSize = 60;
+
+  for (let i = 0; i < 4; i++) {
+    let x = cos(angle + i * 90) * orbitRadius;
+    let y = sin(angle + i * 90) * orbitRadius;
+
+    // draw moon base
+    noStroke();
+    fill(0);
+    ellipse(x, y, moonSize);
+
+    // add moon phase mask
+    fill(255);
+    if (i === 0) {
+      // full moon
+      ellipse(x, y, moonSize);
+    } else if (i === 1) {
+      // waning (left shadow)
+      ellipse(x + 15, y, moonSize);
+    } else if (i === 2) {
+      // new moon (fully black, do nothing extra)
+    } else if (i === 3) {
+      // waxing (right shadow)
+      ellipse(x - 15, y, moonSize);
+    }
+  }
+
+  // make moons orbit
+  angle += 1;
+}
+
+
+
+This experiment gave me some programming ideas while I worked on more experiments of my designs and patterns. Unfortunately, I have no idea how to upload gifs or images onto this journal yet, so the coding strips and descriptions will have to do.
+What I would like to do is to have a dial animation, meaning the moons move in a circle while the lines ease in and out. 
+My sketches and ideas will be published, as soon as I find out how.
