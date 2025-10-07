@@ -128,6 +128,8 @@ function animateShapes() {
   rect(200, 200, squareSize, squareSize);
 }
 
+<iframe src="https://editor.p5js.org/KayWa7/full/_pKU21a6k"></iframe>
+
 # Week 3 Journal by Kayleigh Waser
 GENCG Week 3 Exercise Grid & Time
 To combine the exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. The code used looked as follows:
@@ -200,9 +202,10 @@ What I would like to do is to have a dial animation, meaning the moons move in a
 My sketches and ideas will be published, as soon as I find out how.
 
 
-
 # Week 4 Journal by Kayleigh Waser
 
-This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - Salvador Dalí with his melting clocks and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and a part of the series "Real Time Clock".
+This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and part of the series "Real Time Clock".
 
-For my project, I would like to incorporate lunar cycles as a representation of mine, ideally combine it with some sort of pendulum, like an old grandfather clock.
+I, then went online again to research art pieces about time and its passage. During this brief search, I discovered an installation by Maya Lin, titled "Eclipsed Time". Exhibited in New York, a disk installed in the ceiling causes an eclipse in intervals, demonstrating the passage of time.
+
+For my project, I would like to incorporate lunar cycles as a representation of time, ideally combine it with some sort of pendulum, like an old grandfather clock. Another object to draw inspiration from would be sun dials, from those one may find in a garden to the ancient ones created by indigenous tribes such as the Aztecs.
