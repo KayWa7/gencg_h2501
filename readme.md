@@ -128,7 +128,10 @@ function animateShapes() {
   rect(200, 200, squareSize, squareSize);
 }
 
+{% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/_pKU21a6k"></iframe>
+{% endraw %}
+
 
 # Week 3 Journal by Kayleigh Waser
 GENCG Week 3 Exercise Grid & Time
