@@ -198,3 +198,11 @@ function draw() {
 This experiment gave me some programming ideas while I worked on more experiments of my designs and patterns. Unfortunately, I have no idea how to upload gifs or images onto this journal yet, so the coding strips and descriptions will have to do.
 What I would like to do is to have a dial animation, meaning the moons move in a circle while the lines ease in and out. 
 My sketches and ideas will be published, as soon as I find out how.
+
+
+
+# Week 4 Journal by Kayleigh Waser
+
+This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - Salvador Dalí with his melting clocks and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and a part of the series "Real Time Clock".
+
+For my project, I would like to incorporate lunar cycles as a representation of mine, ideally combine it with some sort of pendulum, like an old grandfather clock.
