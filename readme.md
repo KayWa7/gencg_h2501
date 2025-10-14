@@ -236,7 +236,7 @@ function setup() {
 function draw() {
   // Parameters
   let swingSpeed = TWO_PI / 2;   // 2 seconds per full figure-8 loop
-  let rotateSpeed = radians(0.3); // slow rotation per frame
+  let rotateSpeed = radians(0.7); // slow rotation per frame
   let xAmp = 250;
   let yAmp = 150;
 
@@ -270,4 +270,5 @@ function draw() {
   rotation += rotateSpeed;
 }
 
-
+This mandala shape is created one second at a time, with the swings of the pendulum timed to last one second each.
+After the difficulties I have faced in Visual Studio Code while trying to add images and files to this journal, I am glad to have found a way to combine some of themes and tasks of the past weeks.
