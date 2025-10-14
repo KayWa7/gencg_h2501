@@ -127,6 +127,7 @@ function animateShapes() {
 <iframe src="https://editor.p5js.org/KayWa7/full/_pKU21a6k" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
+https://editor.p5js.org/KayWa7/full/_pKU21a6k
 
 # Week 3 Journal by Kayleigh Waser
 GENCG Week 3 Exercise Grid & Time
@@ -203,14 +204,30 @@ My sketches and ideas will be published, as soon as I find out how.
 
 This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and part of the series "Real Time Clock".
 
+https://www.framedcanvasart.com/wp-content/uploads/2024/12/The-Persistence-of-Memory-Melting-Clocks-Painting-Salvador-Dali.jpg 
+(Salvador Dalí - The Persistence of Memory (Melting Clocks))
+
+https://www.youtube.com/watch?v=TigeOpy5-TA 
+(Marten Baas - Real Time Clock (recording of the installation at the Paddington Station in London,UK))
+
 I, then went online again to research art pieces about time and its passage. During this brief search, I discovered an installation by Maya Lin, titled "Eclipsed Time". Exhibited in New York, a disk installed in the ceiling causes an eclipse in intervals, demonstrating the passage of time.
 
+https://uploads5.wikiart.org/00109/images/maya-lin/eclipsed-time-1989-95.jpg 
+(Maya Lin - Eclipsed Time)
+
 For my project, I would like to incorporate lunar cycles as a representation of time, ideally combine it with some sort of pendulum, like an old grandfather clock. Another object to draw inspiration from would be sun dials, from those one may find in a garden to the ancient ones created by indigenous tribes such as the Aztecs.
+
+https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Df860bf3b48f0d15dc8cce429ae663d03cbc92846
+(The Aztec Sun Stone displayed at the National Anthropology Museum in Mexico City)
 
 
 # Week 5 Journal by Kayleigh Waser
 
 In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as as the container swings like a pendulum. 
+
+https://lh3.googleusercontent.com/Mv6LgdJedWVizMWZUveLO1pEjBydQ9Njk5KiQf8FivjlnNoDJgQfJC5fdn5GgjC70Tyjk-LxamS3lMCJZYoMBckQssOtukIQDVs8xpLXzSWwC37grEhPQJAMsY5Dj-H9kIMuvgnCHPc0nXu2yfY8Sg_NVpNnbF3KVxqVH6M6PUjrdaG0TgoOycYAew 
+https://i.etsystatic.com/24858016/r/il/86d371/2602609981/il_1588xN.2602609981_r9wp.jpg 
+(a few examples I have spotted on google images)
 
 I took this idea into p5.js and programmed a pendulum there, which creates a flower-like pattern in tones of blue and purple.
 https://editor.p5js.org/KayWa7/full/knUcwVDIa
@@ -272,3 +289,8 @@ function draw() {
 
 This mandala shape is created one second at a time, with the swings of the pendulum timed to last one second each.
 After the difficulties I have faced in Visual Studio Code while trying to add images and files to this journal, I am glad to have found a way to combine some of themes and tasks of the past weeks.
+
+I wished to fill the canvas some more and tried to find a simple way to add more depth to the design, so I added a second pendulum behind the first. The second pendulum is larger and changes color randomly every second, making that change with every swing.
+https://editor.p5js.org/KayWa7/full/M7HkOkjYh
+
+A next step could be to add controls for users to change the velocity in which the pendulum circles.
