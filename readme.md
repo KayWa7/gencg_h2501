@@ -206,3 +206,68 @@ This week, we yet again look at time as a topic. The first artworks that come to
 I, then went online again to research art pieces about time and its passage. During this brief search, I discovered an installation by Maya Lin, titled "Eclipsed Time". Exhibited in New York, a disk installed in the ceiling causes an eclipse in intervals, demonstrating the passage of time.
 
 For my project, I would like to incorporate lunar cycles as a representation of time, ideally combine it with some sort of pendulum, like an old grandfather clock. Another object to draw inspiration from would be sun dials, from those one may find in a garden to the ancient ones created by indigenous tribes such as the Aztecs.
+
+
+# Week 5 Journal by Kayleigh Waser
+
+In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as as the container swings like a pendulum. 
+
+I took this idea into p5.js and programmed a pendulum there, which creates a flower-like pattern in tones of blue and purple.
+https://editor.p5js.org/KayWa7/full/knUcwVDIa
+
+The code I used looks as follows: 
+let t = 0;                 // time variable for pendulum motion
+let rotation = 0;          // overall rotation angle of the figure-eight
+let hueShift = 200;        // color hue (blue start)
+let cycleCount = 0;
+let lastSign = 1;
+let centerX, centerY;
+
+function setup() {
+  createCanvas(800, 800);
+  colorMode(HSB, 360, 100, 100);
+  background(0);
+  noFill();
+  strokeWeight(2);
+  centerX = width / 2;
+  centerY = height / 2;
+}
+
+function draw() {
+  // Parameters
+  let swingSpeed = TWO_PI / 2;   // 2 seconds per full figure-8 loop
+  let rotateSpeed = radians(0.3); // slow rotation per frame
+  let xAmp = 250;
+  let yAmp = 150;
+
+  // Calculate figure-eight path
+  let x = sin(t) * xAmp;
+  let y = sin(t * 2) * yAmp / 2;
+
+  // Apply slow rotation to entire pendulum system
+  let rx = x * cos(rotation) - y * sin(rotation);
+  let ry = x * sin(rotation) + y * cos(rotation);
+  let drawX = centerX + rx;
+  let drawY = centerY + ry;
+
+  // Draw trail line (connect previous and current positions)
+  stroke(hueShift, 100, 100, 0.8);
+  point(drawX, drawY);
+
+  // Color change per full loop
+  let sign = sin(t) > 0 ? 1 : -1;
+  if (sign !== lastSign) {
+    cycleCount++;
+    if (cycleCount % 2 === 0) {
+      hueShift += 10;
+      if (hueShift > 300) hueShift = 200; // cycle blue→purple
+    }
+    lastSign = sign;
+  }
+
+  // Advance motion and rotation
+  t += swingSpeed / 60;
+  rotation += rotateSpeed;
+}
+
+
