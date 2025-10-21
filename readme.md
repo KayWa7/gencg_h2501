@@ -44,7 +44,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 * Consetetur sadipscing elitr, sed diam nonumy.
 * At vero eos et accusam et justo duo dolores et ea rebum. 
 
-# Week 2 Journal by Kayleigh Waser
+# Week 02 Journal by Kayleigh Waser
 GENCG Week 2 – Code Grid Exercise
 // Variables for animation
 let angle = 0;
@@ -129,7 +129,7 @@ function animateShapes() {
 
 https://editor.p5js.org/KayWa7/full/_pKU21a6k
 
-# Week 3 Journal by Kayleigh Waser
+# Week 03 Journal by Kayleigh Waser
 GENCG Week 3 Exercise Grid & Time
 To combine the exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. The code used looked as follows:
 
@@ -200,7 +200,7 @@ What I would like to do is to have a dial animation, meaning the moons move in a
 My sketches and ideas will be published, as soon as I find out how.
 
 
-# Week 4 Journal by Kayleigh Waser
+# Week 04 Journal by Kayleigh Waser
 
 This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and part of the series "Real Time Clock".
 
@@ -221,7 +221,7 @@ https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.j
 (The Aztec Sun Stone displayed at the National Anthropology Museum in Mexico City)
 
 
-# Week 5 Journal by Kayleigh Waser
+# Week 05 Journal by Kayleigh Waser
 
 In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as as the container swings like a pendulum. 
 
@@ -294,3 +294,7 @@ I wished to fill the canvas some more and tried to find a simple way to add more
 https://editor.p5js.org/KayWa7/full/M7HkOkjYh
 
 A next step could be to add controls for users to change the velocity in which the pendulum circles.
+
+# Week 06 Journal by Kayleigh Waser
+
+In today's lecture, we formed groups to exchange our ideas and journals. I still could not upload any media properly, so I continue to work with links. 
