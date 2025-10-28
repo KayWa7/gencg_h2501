@@ -147,6 +147,9 @@ function draw() {
   angle += 1;
 }
 
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/RjQTIRIfo" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
 
 This experiment gave me some programming ideas while I worked on more experiments of my designs and patterns. Unfortunately, I have no idea how to upload gifs or images onto this journal yet, so the coding strips and descriptions will have to do.
 What I would like to do is to have a dial animation, meaning the moons move in a circle while the lines ease in and out. 
@@ -246,7 +249,9 @@ This mandala shape is created one second at a time, with the swings of the pendu
 After the difficulties I have faced in Visual Studio Code while trying to add images and files to this journal, I am glad to have found a way to combine some of themes and tasks of the past weeks.
 
 I wished to fill the canvas some more and tried to find a simple way to add more depth to the design, so I added a second pendulum behind the first. The second pendulum is larger and changes color randomly every second, making that change with every swing.
-https://editor.p5js.org/KayWa7/full/M7HkOkjYh
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/M7HkOkjYh" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
 
 A next step could be to add controls for users to change the velocity in which the pendulum circles.
 
@@ -254,3 +259,6 @@ A next step could be to add controls for users to change the velocity in which t
 
 In today's lecture, we formed groups to exchange our ideas and journals. I still could not upload any media properly, so I continue to work with links. It felt inspiring and motivating to see what some of my classmates have been up to during the past weeks. I received tips on the set up for github.
 As for my research and state of the project, I received positive feedback. My latest "sketch" has been called "hypnotic" and "relaxing". I am aware that I need to invest some time in my Javascript coding skills to make my ideas a reality. Even though, not everything works the way it should, I feel like I reached a point where I need to put all my energy and effort into the project rather than making github work.
+
+# Week 07 Journal by Kayleigh Waser
+
