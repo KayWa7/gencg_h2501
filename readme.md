@@ -81,7 +81,6 @@ function animateShapes() {
 <iframe src="https://editor.p5js.org/KayWa7/full/_pKU21a6k" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
-https://editor.p5js.org/KayWa7/full/_pKU21a6k
 
 # Week 03 Journal by Kayleigh Waser
 GENCG Week 3 Exercise Grid & Time
@@ -184,7 +183,9 @@ https://i.etsystatic.com/24858016/r/il/86d371/2602609981/il_1588xN.2602609981_r9
 (a few examples I have spotted on google images)
 
 I took this idea into p5.js and programmed a pendulum there, which creates a flower-like pattern in tones of blue and purple.
-https://editor.p5js.org/KayWa7/full/knUcwVDIa
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/knUcwVDIa" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
 
 The code I used looks as follows: 
 let t = 0;                 // time variable for pendulum motion
