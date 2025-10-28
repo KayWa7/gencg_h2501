@@ -276,3 +276,6 @@ Next, I tried to have an actual face, but the way it turned out reminded me more
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/loZMh5ZER" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+
+
+On the organisational side, I figured out how to add the P5.js files into this journal, which I am glad about and it fuels my motivation. At least now, I am able to demonstrate in a more direct way what I am experiement with and working on.
