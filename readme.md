@@ -262,3 +262,17 @@ As for my research and state of the project, I received positive feedback. My la
 
 # Week 07 Journal by Kayleigh Waser
 
+With today's topic of faces, I commited myself to programming instead of designing something. I simply aimed for replicating this inspirational image:
+https://www.dreamstime.com/vector-art-wireframe-depiction-human-face-representing-d-modeling-facial-recognition-technology-digital-identity-image405942177
+
+My first attempt with the help of AI created a grid but not a face. What I liked about it was that the grid moves along with the mouse. That way, should I be able to model a face through code, spectators could get a good look from all angles.
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/_IRNlUl9n" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+Next, I tried to have an actual face, but the way it turned out reminded me more of Pinocchio rather than a real human face. I definitely need to make changes to come near the image I looked up.
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/loZMh5ZER" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
