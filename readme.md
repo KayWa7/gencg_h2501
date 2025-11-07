@@ -279,3 +279,13 @@ Next, I tried to have an actual face, but the way it turned out reminded me more
 
 
 On the organisational side, I figured out how to add the P5.js files into this journal, which I am glad about and it fuels my motivation. At least now, I am able to demonstrate in a more direct way what I am experiement with and working on.
+
+# Week 08 Journal by Kayleigh Waser
+
+This week, I took the time to sit down and figure out some coding. With the help of AI, I managed to create a base to work with and extend the final project. I tried to implement the moon phase/dial idea into working code. The result is far from satisfying:
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/qBh9-EqPG" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+It still needs detail work but this is the closest I got to my vision. What I also would like to integrate is the meditative color pendulum somehow. The whole piece, as I currently envision it, would focus on the topic of time.
