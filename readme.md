@@ -1,4 +1,6 @@
-# Week 02 Journal by Kayleigh Waser
+# GENCG HS25 Journal by Kayleigh Waser
+
+# Week 02
 GENCG Week 2 – Code Grid Exercise
 // Variables for animation
 let angle = 0;
@@ -82,7 +84,7 @@ function animateShapes() {
 {% endraw %}
 
 
-# Week 03 Journal by Kayleigh Waser
+# Week 03 
 GENCG Week 3 Exercise Grid & Time
 To combine the exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. The code used looked as follows:
 
@@ -156,7 +158,7 @@ What I would like to do is to have a dial animation, meaning the moons move in a
 My sketches and ideas will be published, as soon as I find out how.
 
 
-# Week 04 Journal by Kayleigh Waser
+# Week 04 
 
 This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and part of the series "Real Time Clock".
 
@@ -177,7 +179,7 @@ https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.j
 (The Aztec Sun Stone displayed at the National Anthropology Museum in Mexico City)
 
 
-# Week 05 Journal by Kayleigh Waser
+# Week 05 
 
 In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as as the container swings like a pendulum. 
 
@@ -255,12 +257,12 @@ I wished to fill the canvas some more and tried to find a simple way to add more
 
 A next step could be to add controls for users to change the velocity in which the pendulum circles.
 
-# Week 06 Journal by Kayleigh Waser
+# Week 06 
 
 In today's lecture, we formed groups to exchange our ideas and journals. I still could not upload any media properly, so I continue to work with links. It felt inspiring and motivating to see what some of my classmates have been up to during the past weeks. I received tips on the set up for github.
 As for my research and state of the project, I received positive feedback. My latest "sketch" has been called "hypnotic" and "relaxing". I am aware that I need to invest some time in my Javascript coding skills to make my ideas a reality. Even though, not everything works the way it should, I feel like I reached a point where I need to put all my energy and effort into the project rather than making github work.
 
-# Week 07 Journal by Kayleigh Waser
+# Week 07 
 
 With today's topic of faces, I commited myself to programming instead of designing something. I simply aimed for replicating this inspirational image:
 https://www.dreamstime.com/vector-art-wireframe-depiction-human-face-representing-d-modeling-facial-recognition-technology-digital-identity-image405942177
@@ -280,7 +282,7 @@ Next, I tried to have an actual face, but the way it turned out reminded me more
 
 On the organisational side, I figured out how to add the P5.js files into this journal, which I am glad about and it fuels my motivation. At least now, I am able to demonstrate in a more direct way what I am experiement with and working on.
 
-# Week 08 Journal by Kayleigh Waser
+# Week 08 
 
 This week, I took the time to sit down and figure out some coding. With the help of AI, I managed to create a base to work with and extend the final project. I tried to implement the moon phase/dial idea into working code. The result is far from satisfying:
 
