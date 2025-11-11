@@ -189,7 +189,7 @@ https://i.etsystatic.com/24858016/r/il/86d371/2602609981/il_1588xN.2602609981_r9
 
 I took this idea into p5.js and programmed a pendulum there, which creates a flower-like pattern in tones of blue and purple.
 {% raw %}
-<iframe src="https://editor.p5js.org/KayWa7/full/knUcwVDIa" width="100%" height="450" frameborder="no"></iframe>
+<iframe src="https://editor.p5js.org/KayWa7/full/knUcwVDIa" width="800" height="800" frameborder="no"></iframe>
 {% endraw %}
 
 The code I used looks as follows: 
@@ -291,3 +291,4 @@ This week, I took the time to sit down and figure out some coding. With the help
 {% endraw %}
 
 It still needs detail work but this is the closest I got to my vision. What I also would like to integrate is the meditative color pendulum somehow. The whole piece, as I currently envision it, would focus on the topic of time.
+
