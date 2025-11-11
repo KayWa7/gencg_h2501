@@ -159,7 +159,6 @@ My sketches and ideas will be published, as soon as I find out how.
 
 
 # Week 04 
-
 This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and part of the series "Real Time Clock".
 
 https://www.framedcanvasart.com/wp-content/uploads/2024/12/The-Persistence-of-Memory-Melting-Clocks-Painting-Salvador-Dali.jpg 
@@ -180,7 +179,6 @@ https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.j
 
 
 # Week 05 
-
 In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as as the container swings like a pendulum. 
 
 https://lh3.googleusercontent.com/Mv6LgdJedWVizMWZUveLO1pEjBydQ9Njk5KiQf8FivjlnNoDJgQfJC5fdn5GgjC70Tyjk-LxamS3lMCJZYoMBckQssOtukIQDVs8xpLXzSWwC37grEhPQJAMsY5Dj-H9kIMuvgnCHPc0nXu2yfY8Sg_NVpNnbF3KVxqVH6M6PUjrdaG0TgoOycYAew 
@@ -258,12 +256,10 @@ I wished to fill the canvas some more and tried to find a simple way to add more
 A next step could be to add controls for users to change the velocity in which the pendulum circles.
 
 # Week 06 
-
 In today's lecture, we formed groups to exchange our ideas and journals. I still could not upload any media properly, so I continue to work with links. It felt inspiring and motivating to see what some of my classmates have been up to during the past weeks. I received tips on the set up for github.
 As for my research and state of the project, I received positive feedback. My latest "sketch" has been called "hypnotic" and "relaxing". I am aware that I need to invest some time in my Javascript coding skills to make my ideas a reality. Even though, not everything works the way it should, I feel like I reached a point where I need to put all my energy and effort into the project rather than making github work.
 
 # Week 07 
-
 With today's topic of faces, I commited myself to programming instead of designing something. I simply aimed for replicating this inspirational image:
 https://www.dreamstime.com/vector-art-wireframe-depiction-human-face-representing-d-modeling-facial-recognition-technology-digital-identity-image405942177
 
@@ -283,7 +279,6 @@ Next, I tried to have an actual face, but the way it turned out reminded me more
 On the organisational side, I figured out how to add the P5.js files into this journal, which I am glad about and it fuels my motivation. At least now, I am able to demonstrate in a more direct way what I am experiement with and working on.
 
 # Week 08 
-
 This week, I took the time to sit down and figure out some coding. With the help of AI, I managed to create a base to work with and extend the final project. I tried to implement the moon phase/dial idea into working code. The result is far from satisfying:
 
 {% raw %}
@@ -292,3 +287,14 @@ This week, I took the time to sit down and figure out some coding. With the help
 
 It still needs detail work but this is the closest I got to my vision. What I also would like to integrate is the meditative color pendulum somehow. The whole piece, as I currently envision it, would focus on the topic of time.
 
+# Week 09
+This week, we had another sheduled exchange session. I took the opportunity to get some clarity on the expected scale of our project. After an interesting and informative conversation, I drew new strength, motivation and inspiration to move onwards.
+On the programming side of things, I tried to correct some flaws in my lunar dial sketch. I managed to get some slight improvements, though I still got a long way to go before it is how I envisioned it.
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/0EtSBjY5_" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+Maybe, I will abandon the idea to some extent. I would still like to stay within the topic of "time", its representation and use the moon and stars as an inspiriation. But I would like to include some drawing machine in the concept.
+An idea, which just struck me: I would still use the rotating outer ring with the cresent moons and stars. But instead of the sigil-esque symbol in the middle, I could have one moon with a black shape shifting from one side to the other to create the phases of the moon.
+On the other hand, I still like the pendulum spirograph sketch I made weeks ago. Maybe the pendulum could visualize the passing of days in the lunar cycle.
