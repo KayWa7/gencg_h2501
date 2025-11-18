@@ -298,3 +298,22 @@ On the programming side of things, I tried to correct some flaws in my lunar dia
 Maybe, I will abandon the idea to some extent. I would still like to stay within the topic of "time", its representation and use the moon and stars as an inspiriation. But I would like to include some drawing machine in the concept.
 An idea, which just struck me: I would still use the rotating outer ring with the cresent moons and stars. But instead of the sigil-esque symbol in the middle, I could have one moon with a black shape shifting from one side to the other to create the phases of the moon.
 On the other hand, I still like the pendulum spirograph sketch I made weeks ago. Maybe the pendulum could visualize the passing of days in the lunar cycle.
+
+# Week 10
+As today's lesson was about pixel, I wanted to do a side experiment. I realized, that I never tried to have a practice sketch, where the artwork reacts to the user. So, after many failed attempts, I managed to program a simple blue background and a code which generates star patterned pixels whenever users move their cursor over the canvas.
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/2UTOkT4ba" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+The first attempt resulted in a somewhat working code, the image, which I tried to reproduce did not quite worj the way I willed it to.
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/1lJwVf3X9" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+As for the current state of the project, I gave up on the moonphases inside the inner circle and removed them for now. Now, I want to find out, what I could possibly have on the inside...
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/NS8PfTp3V" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
