@@ -317,3 +317,11 @@ As for the current state of the project, I gave up on the moonphases inside the 
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/NS8PfTp3V" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+
+# Week 11
+
+I experimented with the spirograph inside the lunar cycle. The result I liked the most was this sketch:
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/ec9bRU4xk" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
