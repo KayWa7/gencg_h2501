@@ -325,3 +325,14 @@ I experimented with the spirograph inside the lunar cycle. The result I liked th
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/ec9bRU4xk" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+
+I still feel like it misses a certain extra. Maybe, if spectators were able to influence the piece more, it could be more exciting.
+
+# Week 12
+
+Today, I experimented with interactivity between the art work and the user/spectator. I added a speed-up function to the cycle and a color change upon click to the spirograph. 
+Everytime, the user moves their cursor to the right side of the canvas, "time will speed up". If the cursor stays in the middle, the rotation continues normally, and if the cursor is on the left side "time stops", meaning the rotation stops.
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/bBVwk9opw" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
