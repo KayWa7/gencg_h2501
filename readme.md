@@ -1,7 +1,8 @@
 # GENCG HS25 Journal by Kayleigh Waser
 
 # Week 02
-GENCG Week 2 – Code Grid Exercise
+For our first exercise, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. The first one ended up like this:
+
 // Variables for animation
 let angle = 0;
 let pulseSize = 1;
@@ -79,14 +80,15 @@ function animateShapes() {
   rect(200, 200, squareSize, squareSize);
 }
 
+Put into p5.js, the code turned into that:
+
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/_pKU21a6k" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
 
 # Week 03 
-GENCG Week 3 Exercise Grid & Time
-To combine the exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. The code used looked as follows:
+To combine the grid and time exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. The code used looked as follows:
 
 let angle = 0;     // for moon orbit
 let lineLength = 50;  // base line length
@@ -319,7 +321,6 @@ As for the current state of the project, I gave up on the moonphases inside the 
 {% endraw %}
 
 # Week 11
-
 I experimented with the spirograph inside the lunar cycle. The result I liked the most was this sketch:
 
 {% raw %}
@@ -329,10 +330,11 @@ I experimented with the spirograph inside the lunar cycle. The result I liked th
 I still feel like it misses a certain extra. Maybe, if spectators were able to influence the piece more, it could be more exciting.
 
 # Week 12
-
 Today, I experimented with interactivity between the art work and the user/spectator. I added a speed-up function to the cycle and a color change upon click to the spirograph. 
 Everytime, the user moves their cursor to the right side of the canvas, "time will speed up". If the cursor stays in the middle, the rotation continues normally, and if the cursor is on the left side "time stops", meaning the rotation stops.
 
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/bBVwk9opw" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+
+# Week 13
