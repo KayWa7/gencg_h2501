@@ -338,3 +338,19 @@ Everytime, the user moves their cursor to the right side of the canvas, "time wi
 {% endraw %}
 
 # Week 13
+With the presentation coming up next week, I shall dedicate the remaining time on refining my current sketch. 
+My project focuses on the topic "time" and the passing of which. The base colors and motives are inspired by the moon and stars: crescent and pentagram shapes in white, black and shades of blue. Those shapes are rotating in a circle, like a clock-wise dial. Inside, there is a spirograph drawing a mandala inside the circle. Each swing lasts a second and the line changes the color. Combining those occult elements made the canvas look like a sigil. For interactivity, I currently have three functions planned: 
+
+- the stopping of time: hover on the left side of the canvas
+- moving with time: hover in the middle of the canvas
+- the rushing of time: hover on the right side of the canvas
+
+Ultimately, the message I try to convey is, how different time can feel. It can pass by in a flash, or it can feel as if it stopped altogether. But no matter how hard you try, one cannot stop time.
+
+I removed the "click to change color" function because it was merely an experiment and did not really fit into my concept idea.
+So, I took a step towards the end project by removing the clicking and have the color change after a second instead.
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/nOf2DDTSl" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+Next, I tried to sync the color change with the swings of the spirograph. Each swing must last one second.
