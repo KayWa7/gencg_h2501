@@ -308,7 +308,7 @@ As today's lesson was about pixel, I wanted to do a side experiment. I realized,
 <iframe src="https://editor.p5js.org/KayWa7/full/2UTOkT4ba" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
-The first attempt resulted in a somewhat working code, the image, which I tried to reproduce did not quite worj the way I willed it to.
+The first attempt resulted in a somewhat working code, the image, which I tried to reproduce did not quite work the way I willed it to.
 
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/1lJwVf3X9" width="100%" height="450" frameborder="no"></iframe>
