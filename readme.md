@@ -353,4 +353,20 @@ So, I took a step towards the end project by removing the clicking and have the 
 <iframe src="https://editor.p5js.org/KayWa7/full/nOf2DDTSl" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
-Next, I tried to sync the color change with the swings of the spirograph. Each swing must last one second.
+Next, I tried to sync the color change with the swings of the spirograph. Each swing must last one second.This endeavor ended however in this odd behavior:
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/kZVAfPpA8" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+This attempt has an interesting side effect: the starting point of that swinging spirograph changes everytime. It makes me think of the hand indicating the seconds on a clock. When trying to explore this further, the alterations had another undesired effect:
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/7qbt7dk9r" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+I still was interested in exploring the idea of having a wavy hand on a clock, so I tried again. While it would be interesting to walk down this path, I went back to my original idea with the mandala.
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/IayocSq77" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
