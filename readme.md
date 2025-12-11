@@ -376,3 +376,5 @@ To include and embed the seconds clock hand, I added a band to separate the rota
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/hIgX81VLp" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+
+This accident made for a nice additional touch.
