@@ -365,8 +365,14 @@ This attempt has an interesting side effect: the starting point of that swinging
 <iframe src="https://editor.p5js.org/KayWa7/full/7qbt7dk9r" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
-I still was interested in exploring the idea of having a wavy hand on a clock, so I tried again. While it would be interesting to walk down this path, I went back to my original idea with the mandala.
+I still was interested in exploring the idea of having a wavy hand on a clock, so I tried again.
 
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/IayocSq77" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
+To include and embed the seconds clock hand, I added a band to separate the rotating moon and stars and moved the spirograph into the background.
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/hIgX81VLp" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
