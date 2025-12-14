@@ -378,3 +378,10 @@ To include and embed the seconds clock hand, I added a band to separate the rota
 {% endraw %}
 
 This accident made for a nice additional touch.
+
+# Week 14
+The final stage of the project looks as follows:
+
+{% raw %}
+<iframe src="https://editor.p5js.org/KayWa7/full/5qDxTFOEa" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
