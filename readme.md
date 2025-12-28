@@ -1,5 +1,11 @@
 # GENCG HS25 Journal by Kayleigh Waser
 
+# Week 01
+Today, we got to start this new course with lots of inputs and a fun exercise: the Sprouts Game.
+{% raw %}
+<iframe src="https://drive.google.com/file/d/1yLCYKw_bMDSPUELeYCuIoVdEITfpkbFs/view" width="100%" height="450" frameborder="no"></iframe>
+{% endraw %}
+
 # Week 02
 For our first exercise, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. The first one ended up like this:
 
@@ -88,7 +94,11 @@ Put into p5.js, the code turned into that:
 
 
 # Week 03 
-To combine the grid and time exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. The code used looked as follows:
+To combine the grid and time exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. I made a rough sketch in PowerPoint to plan the composition.
+
+
+
+The code used to create a basis in p5.js looked as follows:
 
 let angle = 0;     // for moon orbit
 let lineLength = 50;  // base line length
@@ -386,7 +396,7 @@ The final stage of the project looks as follows:
 <iframe src="https://editor.p5js.org/KayWa7/full/5qDxTFOEa" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
-The code used is a patchwork of different sketches, overviewed and simplified by Gemini, looks as follows:
+The code used is a patchwork of different sketches, overviewed and simplified by Google Gemini AI, looks as follows:
 
 
 // ==========================================================
