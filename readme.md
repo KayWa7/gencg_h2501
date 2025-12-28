@@ -9,7 +9,7 @@ Today, we got to start this new course with lots of inputs and a fun exercise in
 Currently, I am still struggling with the set up in github. But, I am curious, where this journey will lead us to.
 
 # Week 02
-For our first exercise, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. The first one ended up like this:
+For our first exercise of the day, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. The first one ended up like this:
 
 // Variables for animation
 let angle = 0;
