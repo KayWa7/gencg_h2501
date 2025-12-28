@@ -2,9 +2,10 @@
 
 # Week 01
 Today, we got to start this new course with lots of inputs and a fun exercise: the Sprouts Game.
-{% raw %}
-<iframe src="https://drive.google.com/file/d/1yLCYKw_bMDSPUELeYCuIoVdEITfpkbFs/view" width="100%" height="450" frameborder="no"></iframe>
-{% endraw %}
+<div align="center">
+  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
+  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+</div>
 
 # Week 02
 For our first exercise, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. The first one ended up like this:
