@@ -249,13 +249,13 @@ https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.j
 In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as as the container swings like a pendulum. 
 
 <div align="center">
-  <img src="images/Reddit_Spirograph_Artwork.png" alt="Spirograph Artwork" width="600">
+  <img src="images/Reddit_Spirograph_Artwork.png" alt="Spirograph Artwork Reddit" width="600">
   <p><i>a spirograph painting I found on Reddit while researching.</i></p>
 </div>
 (https://lh3.googleusercontent.com/Mv6LgdJedWVizMWZUveLO1pEjBydQ9Njk5KiQf8FivjlnNoDJgQfJC5fdn5GgjC70Tyjk-LxamS3lMCJZYoMBckQssOtukIQDVs8xpLXzSWwC37grEhPQJAMsY5Dj-H9kIMuvgnCHPc0nXu2yfY8Sg_NVpNnbF3KVxqVH6M6PUjrdaG0TgoOycYAew) 
 
 <div align="center">
-  <img src="images/Reddit_Spirograph_Artwork.png" alt="Spirograph Artwork" width="600">
+  <img src="images/Spirograph_Etsy.png" alt="Spirograph Artwork Etsy" width="600">
   <p><i>a spirograph painting I found on Etsy while researching.</i></p>
 </div>
 (https://i.etsystatic.com/24858016/r/il/86d371/2602609981/il_1588xN.2602609981_r9wp.jpg) 
@@ -339,8 +339,8 @@ As for my research and state of the project, I received positive feedback. My la
 With today's topic of faces, I commited myself to programming instead of designing something. I simply aimed for replicating this inspirational image:
 
 <div align="center">
-  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
-  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+  <img src="images/Wireframe_Face.jpeg" alt="Wireframe Face" width="600">
+  <p><i>an inspiration for a wireframe face.</i></p>
 </div>
 https://www.dreamstime.com/vector-art-wireframe-depiction-human-face-representing-d-modeling-facial-recognition-technology-digital-identity-image405942177
 
@@ -418,13 +418,27 @@ Everytime, the user moves their cursor to the right side of the canvas, "time wi
 
 # Week 13
 With the presentation coming up next week, I shall dedicate the remaining time on refining my current sketch. 
-My project focuses on the topic "time" and the passing of which. The base colors and motives are inspired by the moon and stars: crescent and pentagram shapes in white, black and shades of blue. Those shapes are rotating in a circle, like a clock-wise dial. Inside, there is a spirograph drawing a mandala inside the circle. Each swing lasts a second and the line changes the color. Combining those occult elements made the canvas look like a sigil. For interactivity, I currently have three functions planned: 
+My project focuses on the topic "time" and the passing of which. The base colors and motives are inspired by the moon and stars: crescent and pentagram shapes in white, black and shades of blue. Those shapes are rotating in a circle, like a clock-wise dial. Inside, there is a spirograph drawing a mandala inside the circle. Each swing lasts a second and the line changes the color, like a visual metronome. 
+
+<div align="center">
+  <img src="images/Inspiration_Metronome.png" alt="Metronome" width="600">
+  <p><i>metronome = accoustic indicator of time.</i></p>
+</div>
+(https://en.wiktionary.org/wiki/metronome#/media/File:Metronome_Nikko.jpg)
+
+Combining those occult elements made the canvas look like a sigil. For interactivity, I currently have three functions planned: 
 
 - the stopping of time: hover on the left side of the canvas
 - moving with time: hover in the middle of the canvas
 - the rushing of time: hover on the right side of the canvas
 
 Ultimately, the message I try to convey is, how different time can feel. It can pass by in a flash, or it can feel as if it stopped altogether. But no matter how hard you try, one cannot stop time.
+
+<div align="center">
+  <img src="images/Inspiration_Time.png" alt="Passing of Time" width="600">
+  <p><i>an inspirational image for the perception of "TIME".</i></p>
+</div>
+(https://www.scientificamerican.com/article/why-does-time-seem-to-speed-up-with-age/)
 
 I removed the "click to change color" function because it was merely an experiment and did not really fit into my concept idea.
 So, I took a step towards the end project by removing the clicking and have the color change after a second instead.
