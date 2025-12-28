@@ -246,7 +246,7 @@ https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.j
 
 
 # Week 05 
-In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as as the container swings like a pendulum. 
+In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as the container swings like a pendulum. 
 
 <div align="center">
   <img src="images/Reddit_Spirograph_Artwork.png" alt="Spirograph Artwork Reddit" width="600">
@@ -332,7 +332,7 @@ I wished to fill the canvas some more and tried to find a simple way to add more
 A next step could be to add controls for users to change the velocity in which the pendulum circles.
 
 # Week 06 
-In today's lecture, we formed groups to exchange our ideas and journals. I still could not upload any media properly, so I continue to work with links. It felt inspiring and motivating to see what some of my classmates have been up to during the past weeks. I received tips on the set up for github.
+In today's lecture, we formed groups to exchange our ideas and journals. I still could not upload any media properly at that time, so I continue to work with links. It felt inspiring and motivating to see what some of my classmates have been up to during the past weeks. I received tips on the set up for github.
 As for my research and state of the project, I received positive feedback. My latest "sketch" has been called "hypnotic" and "relaxing". I am aware that I need to invest some time in my Javascript coding skills to make my ideas a reality. Even though, not everything works the way it should, I feel like I reached a point where I need to put all my energy and effort into the project rather than making github work.
 
 # Week 07 
@@ -446,7 +446,7 @@ So, I took a step towards the end project by removing the clicking and have the 
 <iframe src="https://editor.p5js.org/KayWa7/full/nOf2DDTSl" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
-Next, I tried to sync the color change with the swings of the spirograph. Each swing must last one second.This endeavor ended however in this odd behavior:
+Next, I tried to sync the color change with the swings of the spirograph. Each swing must last one second. This endeavor ended however in this odd behavior:
 
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/kZVAfPpA8" width="100%" height="450" frameborder="no"></iframe>
