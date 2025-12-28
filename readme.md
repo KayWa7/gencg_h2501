@@ -170,21 +170,19 @@ function draw() {
 <iframe src="https://editor.p5js.org/KayWa7/full/RjQTIRIfo" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
-This experiment gave me some programming ideas while I worked on more experiments of my designs and patterns. Unfortunately, I have no idea how to upload gifs or images onto this journal yet, so the coding strips and descriptions will have to do.
+This experiment gave me some programming ideas while I worked on more experiments of my designs and patterns.
 What I would like to do is to have a dial animation, meaning the moons move in a circle while the lines ease in and out. 
-My sketches and ideas will be published, as soon as I find out how.
 
 
 # Week 04 
 This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks...:
 
 <div align="center">
-  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
-  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+  <img src="images/Dali_Clocks.png" alt="Dali" width="600">
+  <p><i>Salvador Dalí - The Persistence of Memory (Melting Clocks).</i></p>
 </div>
-
 https://www.framedcanvasart.com/wp-content/uploads/2024/12/The-Persistence-of-Memory-Melting-Clocks-Painting-Salvador-Dali.jpg 
-(Salvador Dalí - The Persistence of Memory (Melting Clocks))
+
 
 ... and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and part of the series "Real Time Clock".
 
