@@ -176,21 +176,55 @@ My sketches and ideas will be published, as soon as I find out how.
 
 
 # Week 04 
-This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and part of the series "Real Time Clock".
+This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks...:
+
+<div align="center">
+  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
+  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+</div>
 
 https://www.framedcanvasart.com/wp-content/uploads/2024/12/The-Persistence-of-Memory-Melting-Clocks-Painting-Salvador-Dali.jpg 
 (Salvador Dalí - The Persistence of Memory (Melting Clocks))
 
+... and a video installation I have spotted right next to the Paddington Station in London. It shows a man painting, erasing and repainting the minute hand on a regular train station's clock. A quick online search told me, that said installation is by Maarten Baas and part of the series "Real Time Clock".
+
+<div align="center">
+  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
+  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+</div>
+
+{% raw %}
+<div align="center">
+  <iframe 
+    width="100%" 
+    height="450" 
+    src="https://www.youtube.com/embed/TigeOpy5-TA" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+  <p><i>Marten Baas - Real Time Clock (Paddington Station installation)</i></p>
+</div>
+{% endraw %}
 https://www.youtube.com/watch?v=TigeOpy5-TA 
 (Marten Baas - Real Time Clock (recording of the installation at the Paddington Station in London,UK))
 
 I, then went online again to research art pieces about time and its passage. During this brief search, I discovered an installation by Maya Lin, titled "Eclipsed Time". Exhibited in New York, a disk installed in the ceiling causes an eclipse in intervals, demonstrating the passage of time.
 
+<div align="center">
+  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
+  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+</div>
 https://uploads5.wikiart.org/00109/images/maya-lin/eclipsed-time-1989-95.jpg 
 (Maya Lin - Eclipsed Time)
 
 For my project, I would like to incorporate lunar cycles as a representation of time, ideally combine it with some sort of pendulum, like an old grandfather clock. Another object to draw inspiration from would be sun dials, from those one may find in a garden to the ancient ones created by indigenous tribes such as the Aztecs.
 
+<div align="center">
+  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
+  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+</div>
 https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Df860bf3b48f0d15dc8cce429ae663d03cbc92846
 (The Aztec Sun Stone displayed at the National Anthropology Museum in Mexico City)
 
@@ -198,6 +232,10 @@ https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.j
 # Week 05 
 In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as as the container swings like a pendulum. 
 
+<div align="center">
+  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
+  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+</div>
 https://lh3.googleusercontent.com/Mv6LgdJedWVizMWZUveLO1pEjBydQ9Njk5KiQf8FivjlnNoDJgQfJC5fdn5GgjC70Tyjk-LxamS3lMCJZYoMBckQssOtukIQDVs8xpLXzSWwC37grEhPQJAMsY5Dj-H9kIMuvgnCHPc0nXu2yfY8Sg_NVpNnbF3KVxqVH6M6PUjrdaG0TgoOycYAew 
 https://i.etsystatic.com/24858016/r/il/86d371/2602609981/il_1588xN.2602609981_r9wp.jpg 
 (a few examples I have spotted on google images)
@@ -278,6 +316,11 @@ As for my research and state of the project, I received positive feedback. My la
 
 # Week 07 
 With today's topic of faces, I commited myself to programming instead of designing something. I simply aimed for replicating this inspirational image:
+
+<div align="center">
+  <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
+  <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
+</div>
 https://www.dreamstime.com/vector-art-wireframe-depiction-human-face-representing-d-modeling-facial-recognition-technology-digital-identity-image405942177
 
 My first attempt with the help of AI created a grid but not a face. What I liked about it was that the grid moves along with the mouse. That way, should I be able to model a face through code, spectators could get a good look from all angles.
