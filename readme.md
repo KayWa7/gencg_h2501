@@ -1,11 +1,12 @@
 # GENCG HS25 Journal by Kayleigh Waser
 
 # Week 01
-Today, we got to start this new course with lots of inputs and a fun exercise: the Sprouts Game.
+Today, we got to start this new course with lots of inputs and a fun exercise in pairs: the Sprouts Game.
 <div align="center">
   <img src="images/Sprouts_Game.jpg" alt="Sprouts Game Sketch" width="600">
   <p><i>Our first exercise: The Sprouts Game from Lecture 01.</i></p>
 </div>
+Currently, I am still struggling with the set up in github. But, I am curious, where this journey will lead us to.
 
 # Week 02
 For our first exercise, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. The first one ended up like this:
@@ -97,7 +98,10 @@ Put into p5.js, the code turned into that:
 # Week 03 
 To combine the grid and time exercises of this and last week, I tried programming a rough and simple moon phase cycle in the p5-editor. For now, I restrict myself to simple shapes until I have more practise with the new tools. I made a rough sketch in PowerPoint to plan the composition.
 
-
+<div align="center">
+  <img src="images/Week_3_Design_Idea.png" alt="Week 3 Sketch Idea" width="600">
+  <p><i>My initial sketch idea: The Lunar Cycle.</i></p>
+</div>
 
 The code used to create a basis in p5.js looked as follows:
 
