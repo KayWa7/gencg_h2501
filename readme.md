@@ -9,7 +9,7 @@ Today, we got to start this new course with lots of inputs and a fun exercise in
 Currently, I am still struggling with the set up in github. But, I am curious, where this journey will lead us to.
 
 # Week 02
-For our first exercise of the day, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. This exercise gave me some basic understand of how to set up the canvas, to include shapes, colors and arrange placements and layers. The final sketch ended up with the code like this:
+For our first exercise of the day, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT, Google Gemini AI and p5.js References (https://p5js.org/reference/) to translate my ideas into code. This exercise gave me some basic understand of how to set up the canvas, to include shapes, colors and arrange placements and layers. The final sketch ended up with the code like this:
 
 // Variables for animation
 let angle = 0;
@@ -170,7 +170,7 @@ function draw() {
 <iframe src="https://editor.p5js.org/KayWa7/full/RjQTIRIfo" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
-This experiment gave me some programming ideas while I worked on more experiments of my designs and patterns.
+This experiment gave me some programming ideas while I try to find my project by experimenting more with designs and patterns.
 What I would like to do is to have a dial animation, meaning the moons move in a circle while the lines ease in and out. Those elements are included in the sketch, yet it lacks colors and is not nice to look at with the odd full moons which out to be crescent shapes.
 
 
@@ -222,7 +222,7 @@ I, then went online again to research art pieces about time and its passage. Dur
 https://uploads5.wikiart.org/00109/images/maya-lin/eclipsed-time-1989-95.jpg 
 
 
-For my project, I would like to incorporate lunar cycles as a representation of time, ideally combine it with some sort of pendulum, like an old grandfather clock. Another object to draw inspiration from would be sun dials, from those one may find in a garden to the ancient ones created by indigenous tribes such as the Aztecs.
+For my project, I would like to incorporate lunar cycles as a representation of time, ideally combine it with some sort of pendulum, like an old grandfather clock.
 
 <div align="center">
   <img src="images/Inspiration_Pendulum.png" alt="Pendulum" width="600">
@@ -236,6 +236,7 @@ For my project, I would like to incorporate lunar cycles as a representation of 
 </div>
 (https://www.linkedin.com/pulse/design-magic-spirograph-ron-gagnier)
 
+Another object to draw inspiration from would be sun dials, from those one may find in a garden to the ancient ones created by indigenous tribes such as the Aztecs. Actually, my grandfather had brought a heavy one made of a turquoise type of stone from his travels to Mexico. It always held a fascination for me. Unfortunately, it perished when his apartment was cleaned out.
 
 <div align="center">
   <img src="images/Aztec_SunDial.png" alt="Sun Dial" width="600">
@@ -261,6 +262,8 @@ On the side of generative art, I found some stunning pieces. Like:
 {% endraw %}
 (https://www.youtube.com/watch?v=TgbKxXBOUC8&list=TLGGjIvR6gz3QvkyODEyMjAyNQ&t=4s)
 
+"Flowers and People - Dark βVersion" by teamLab displays a constant cycle of birth and decay: an algorithm generates flowers in realtime, it is not a pre-recorded video. It is an interactive installation, which reacts to the proximity and movement of spectators. If someone stands still, the flowers bloom and grow. But, as soon as they move, the flowers start to wither. This piece combines a representation of time with direct interaction.
+
 {% raw %}
 <div align="center">
   <iframe 
@@ -276,6 +279,8 @@ On the side of generative art, I found some stunning pieces. Like:
 </div>
 {% endraw %}
 (https://www.youtube.com/watch?v=FgPpmaImuEs)
+
+"The Clock" by Christian Marclay is a traveling video experience. It is a 24-hour supercut of various clips and excerpts of films, each dealing or displaying "time" and edited to match activites fitting to the time shown. The time shown in the various clip is synced to the local timezone. Should you enter the experience at 06:30 AM local time for example, you'll see Meryl Streep's character Miranda Priestly from "The Devil Wears Prada" switch off her alarm clock, which is set for 06:30 AM.
 
 {% raw %}
 <div align="center">
@@ -293,10 +298,13 @@ On the side of generative art, I found some stunning pieces. Like:
 {% endraw %}
 (https://www.youtube.com/watch?v=jwOBEZOfWdE)
 
-While I found them astonishing, especially the various pieces by San Base, they seemed too advanced and too far away from my core idea to attempt to try. Also, it would end up in a replica of this existing artwork rather than my own interpretation.
+The last example I wish to point out is this piece by San Base. This artist works with contiously evolving algorithms, making their works ever changing. Be it a landscape such as "Fractal Trees" or something more abstract like the mechanical-looking "Mandelbox World". Each artwork is generated over time and spectators never see the same piece twice (except one watches a recording).
+
+I also encountered so-called "Peril-Noise Fields", some works of which reminding me of bits of cloth in liquid. While I found the mentioned examples astonishing, especially the various pieces by San Base, they seemed too advanced and too far away from my core idea to attempt to try. Also, it would probably end up in a replica of this existing artwork rather than my own interpretation.
+
 
 # Week 05 
-In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as the container swings like a pendulum. 
+In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as the container swings like a pendulum or a spirograph. 
 
 <div align="center">
   <img src="images/Reddit_Spirograph_Artwork.png" alt="Spirograph Artwork Reddit" width="600">
@@ -311,7 +319,8 @@ In today's lecture, we had a look at automated drawing machines. My immediate tr
 (https://i.etsystatic.com/24858016/r/il/86d371/2602609981/il_1588xN.2602609981_r9wp.jpg) 
 
 
-I took this idea into p5.js and programmed a pendulum there, which creates a flower-like pattern in tones of blue and purple.
+I took this idea into p5.js and programmed a pendulum/drawing machine there, which creates a flower-like pattern in tones of blue and purple.
+
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/knUcwVDIa" width="800" height="800" frameborder="no"></iframe>
 {% endraw %}
@@ -374,16 +383,41 @@ function draw() {
 This mandala shape is created one second at a time, with the swings of the pendulum timed to last one second each.
 After the difficulties I have faced in Visual Studio Code while trying to add images and files to this journal, I am glad to have found a way to combine some of themes and tasks of the past weeks.
 
-I wished to fill the canvas some more and tried to find a simple way to add more depth to the design, so I added a second pendulum behind the first. The second pendulum is larger and changes color randomly every second, making that change with every swing.
+I wished to fill the canvas some more and tried to find a simple way to add more depth to the design, so I added a second pendulum behind the first. The second pendulum is larger and changes color randomly every second, making that change with every swing. Here is a snippet of the new bits of code:
+
+// Calculation for the second (larger) pendulum
+let t2 = t; 
+let rotation2 = rotation * 0.8;
+
+let x2 = sin(t2) * xAmp2;
+let y2 = sin(t2 * 2) * yAmp2 / 2;
+
+let rx2 = x2 * cos(rotation2) - y2 * sin(rotation2);
+let ry2 = x2 * sin(rotation2) + y2 * cos(rotation2);
+let drawX2 = centerX + rx2;
+let drawY2 = centerY + ry2;
+
+// Random color change every 1000ms
+if (millis() - lastColorChange > 1000) {
+  hue2 = random(360);
+  lastColorChange = millis();
+}
+
+strokeWeight(4); // Thicker trail
+stroke(hue2, 100, 100, 0.4); // More transparent
+point(drawX2, drawY2);
+
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/M7HkOkjYh" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
 A next step could be to add controls for users to change the velocity in which the pendulum circles.
 
+
 # Week 06 
 In today's lecture, we formed groups to exchange our ideas and journals. I still could not upload any media properly at that time, so I continue to work with links. It felt inspiring and motivating to see what some of my classmates have been up to during the past weeks. I received tips on the set up for github.
 As for my research and state of the project, I received positive feedback. My latest "sketch" has been called "hypnotic" and "relaxing". I am aware that I need to invest some time in my Javascript coding skills to make my ideas a reality. Even though, not everything works the way it should, I feel like I reached a point where I need to put all my energy and effort into the project rather than making github work.
+
 
 # Week 07 
 With today's topic of faces, I commited myself to programming instead of designing something. I simply aimed for replicating this inspirational image:
@@ -409,6 +443,7 @@ Next, I tried to have an actual face, but the way it turned out reminded me more
 
 On the organisational side, I figured out how to add the P5.js files into this journal, which I am glad about and it fuels my motivation. At least now, I am able to demonstrate in a more direct way what I am experiement with and working on.
 
+
 # Week 08 
 This week, I took the time to sit down and figure out some coding. With the help of AI, I managed to create a base to work with and extend the final project. I tried to implement the moon phase/dial idea into working code. The result is far from satisfying:
 
@@ -417,6 +452,7 @@ This week, I took the time to sit down and figure out some coding. With the help
 {% endraw %}
 
 It still needs detail work but this is the closest I got to my vision. What I also would like to integrate is the meditative color pendulum somehow. The whole piece, as I currently envision it, would focus on the topic of time.
+
 
 # Week 09
 This week, we had another sheduled exchange session. I took the opportunity to get some clarity on the expected scale of our project. After an interesting and informative conversation, I drew new strength, motivation and inspiration to move onwards.
@@ -429,6 +465,7 @@ On the programming side of things, I tried to correct some flaws in my lunar dia
 Maybe, I will abandon the idea to some extent. I would still like to stay within the topic of "time", its representation and use the moon and stars as an inspiriation. But I would like to include some drawing machine in the concept.
 An idea, which just struck me: I would still use the rotating outer ring with the cresent moons and stars. But instead of the sigil-esque symbol in the middle, I could have one moon with a black shape shifting from one side to the other to create the phases of the moon.
 On the other hand, I still like the pendulum spirograph sketch I made weeks ago. Maybe the pendulum could visualize the passing of days in the lunar cycle.
+
 
 # Week 10
 As today's lesson was about pixel, I wanted to do a side experiment. I realized, that I never tried to have a practice sketch, where the artwork reacts to the user. So, after many failed attempts, I managed to program a simple blue background and a code which generates star patterned pixels whenever users move their cursor over the canvas.
@@ -449,6 +486,7 @@ As for the current state of the project, I gave up on the moonphases inside the 
 <iframe src="https://editor.p5js.org/KayWa7/full/NS8PfTp3V" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 
+
 # Week 11
 I experimented with the spirograph inside the lunar cycle. The result I liked the most was this sketch:
 
@@ -458,6 +496,7 @@ I experimented with the spirograph inside the lunar cycle. The result I liked th
 
 I still feel like it misses a certain extra. Maybe, if spectators were able to influence the piece more, it could be more exciting.
 
+
 # Week 12
 Today, I experimented with interactivity between the art work and the user/spectator. I added a speed-up function to the cycle and a color change upon click to the spirograph. 
 Everytime, the user moves their cursor to the right side of the canvas, "time will speed up". If the cursor stays in the middle, the rotation continues normally, and if the cursor is on the left side "time stops", meaning the rotation stops.
@@ -465,6 +504,7 @@ Everytime, the user moves their cursor to the right side of the canvas, "time wi
 {% raw %}
 <iframe src="https://editor.p5js.org/KayWa7/full/bBVwk9opw" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+
 
 # Week 13
 With the presentation coming up next week, I shall dedicate the remaining time on refining my current sketch. 
@@ -522,6 +562,7 @@ To include and embed the seconds clock hand, I added a band to separate the rota
 
 This accident made for a nice additional touch.
 
+
 # Week 14
 The final stage of the project looks as follows:
 
@@ -530,7 +571,6 @@ The final stage of the project looks as follows:
 {% endraw %}
 
 The code used is a patchwork of different sketches, overviewed and simplified by Google Gemini AI, looks as follows:
-
 
 // ==========================================================
 // --- GLOBAL PARAMETERS & SETUP (MUST BE DEFINED HERE) ---
@@ -804,3 +844,5 @@ function draw() {
 
     rotationAngle += rotationSpeed; 
 }
+
+All sketches, attempts and experiments can be found here: https://editor.p5js.org/KayWa7/sketches.
