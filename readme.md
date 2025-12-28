@@ -9,7 +9,7 @@ Today, we got to start this new course with lots of inputs and a fun exercise in
 Currently, I am still struggling with the set up in github. But, I am curious, where this journey will lead us to.
 
 # Week 02
-For our first exercise of the day, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. The first one ended up like this:
+For our first exercise of the day, we had a look at grids. With the inspiration provided in the lecture I started with a basic draft. Since I do not have a coding background, I had some help from ChatGPT and Google Gemini to translate my ideas into code. This exercise gave me some basic understand of how to set up the canvas, to include shapes, colors and arrange placements and layers. The final sketch ended up with the code like this:
 
 // Variables for animation
 let angle = 0;
@@ -171,11 +171,11 @@ function draw() {
 {% endraw %}
 
 This experiment gave me some programming ideas while I worked on more experiments of my designs and patterns.
-What I would like to do is to have a dial animation, meaning the moons move in a circle while the lines ease in and out. 
+What I would like to do is to have a dial animation, meaning the moons move in a circle while the lines ease in and out. Those elements are included in the sketch, yet it lacks colors and is not nice to look at with the odd full moons which out to be crescent shapes.
 
 
 # Week 04 
-This week, we yet again look at time as a topic. The first artworks that come to mind are - of course - by Salvador Dalí with his melting clocks...:
+This week, we yet again look at "time" as a topic. The first artworks that come to my mind are - of course - by Salvador Dalí with his melting clocks...:
 
 <div align="center">
   <img src="images/Dali_Clocks.png" alt="Dali" width="600">
@@ -243,7 +243,57 @@ For my project, I would like to incorporate lunar cycles as a representation of 
 </div>
 https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fd9t0yjd55hg61.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Df860bf3b48f0d15dc8cce429ae663d03cbc92846
 
+On the side of generative art, I found some stunning pieces. Like:
 
+{% raw %}
+<div align="center">
+  <iframe 
+    width="100%" 
+    height="450" 
+    src="https://www.youtube.com/embed/TgbKxXBOUC8" 
+    title="Flowers and People - Dark by teamLab" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+  <p><i>teamLab - Flowers and People - Dark βVer.</i></p>
+</div>
+{% endraw %}
+(https://www.youtube.com/watch?v=TgbKxXBOUC8&list=TLGGjIvR6gz3QvkyODEyMjAyNQ&t=4s)
+
+{% raw %}
+<div align="center">
+  <iframe 
+    width="100%" 
+    height="450" 
+    src="https://www.youtube.com/embed/FgPpmaImuEs" 
+    title="Making time for Christian Marclay's 'The Clock'" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+  <p><i>Christian Marclay - The Clock (CBS Sunday Morning Report)</i></p>
+</div>
+{% endraw %}
+(https://www.youtube.com/watch?v=FgPpmaImuEs)
+
+{% raw %}
+<div align="center">
+  <iframe 
+    width="100%" 
+    height="450" 
+    src="https://www.youtube.com/embed/jwOBEZOfWdE" 
+    title="Mandelbox World by San Base" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+  <p><i>San Base - Mandelbox World (Fractal Generative Art)</i></p>
+</div>
+{% endraw %}
+(https://www.youtube.com/watch?v=jwOBEZOfWdE)
+
+While I found them astonishing, especially the various pieces by San Base, they seemed too advanced and too far away from my core idea to attempt to try. Also, it would end up in a replica of this existing artwork rather than my own interpretation.
 
 # Week 05 
 In today's lecture, we had a look at automated drawing machines. My immediate train of thought went to paint can artwork, in which a container filled with paint is hung on a rope and released onto a canvas. The released paint creates a seemingly infinte path as the container swings like a pendulum. 
